@@ -1,6 +1,6 @@
 # Contents
 ## [matlab_email_access](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#matlab_email_access-1)
-## [Softwares and tools needed](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#softwares-and-tools needed-1)
+## [Softwares and tools needed](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#softwares-and-tools-needed-1)
 ## [Notes](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#notes-1)
 ## [Procedure](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#procedure-1)
 
@@ -25,6 +25,7 @@ Here are the softwares combinations I used, but this technique can be used to ac
 + 'curl' stable version 7.63.0, used in command lines or scripts to transfer data
 + gmail (a free email service developed by Google LLC (subsidiary of Alphabet Inc.))
 + Simple Mail Transfer Protocol (SMTP), an Internet standard for email transmission. (defined by Request for Comments RFC 821, updated with Extended SMTP additions by RFC 5321)
+###### [Back to Contents](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#Contents)
 
 # Notes
 I use "Debian GNU/Linux 9 (stretch)", the 9th Debian with a Matlab version 9.3.0.713579. There is an issueof  incompatibility between the libstdc++ shipped with MATLAB and the libstdc++ shipped with the system. To solve it for me I used the following command before starting my matlab with or without the Java Desktop.
@@ -38,6 +39,7 @@ Another issue I ran into was the compatibility of the client-side URL transfer l
 env LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libcurl.so.4" curl -
 ```
 Again, maybe depending of the system or versions of the libraries and tools this step may also not be necessary, but it will make sure that the curl script will run smoothly.
+###### [Back to Contents](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#Contents)
 
 # Procedure
 All the examples written below are from an example code that available in this repository.
@@ -78,5 +80,7 @@ This is an example as how your mail will look if you have been using this as me.
 
 ![mail view example](https://github.com/saurabhsay/matlab_email_access/blob/master/images/mail_display.jpg)
 
+###### [Back to Contents](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#Contents)
 
 
+***author: Saurabh Kumar*** 
