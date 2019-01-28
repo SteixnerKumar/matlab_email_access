@@ -35,7 +35,11 @@ Again, maybe depending of the system or versions of the libraries and tools this
 # Procedure
 All the examples written below are from an example code that available in this repository.
 
-**Recieve email**
+There is an example file named 'sk_matlab_mail_access_wrapper.m', this file gives the flow of the code. How to read mail and get the parameters, maybe modify these obtained parameters. Use these parameters to run a specific keyword function and then give the output back again through mail.
+
+In addition to the wrapper there are two more functions that have a code example to send and recieve mail via matlab. Before these examples can be used we need to set up the access so please read through this file in order to run it smoothly.
+
++ **Recieve email**
 
 To recieve mail you have to access the linux terminal via matlab. There is a function that enables us to do this - `unix()`. At the termical we can use the curl snippet to access our mail server and list all the mails. This is configurable - One can list all the unread mail, all the mail, only the unread mail subject lines, ..etc. You get the idea!
 ```shell
@@ -51,7 +55,7 @@ The above code lists all the unread mail subject lines from a gmail mail server.
  ```
  Incase the keyword matches the function you want to use you can go ahead and run the code. There is not limit as to how you can manipulate this feature. You can have different keywords for running different function in matlab with their own parameters and even keywords to stop the script in matlab or start a new one.
 
-**Send email**
++ **Send email**
 
 Today, the mail servers are advanced enough and use a standard encryption format of end-to-end TLS/SSL. There are some parameters that are attached to use this protocol. In matlab there is a function 'sendmail' that is configured for the unencrypted connection by default, hence we can use some snippet of code to add these extra required parameters for our purpose. Please make sure that you use the correct settings sepending upon the mail server desired. Here I will show an example of using 'gmail' since it is widely used and I found it quite easy to make it work. Depepnding upon the mail server you can find different server names, server authentication formats and ports. There is an online list without warranty [here](https://www.arclab.com/en/kb/email/list-of-smtp-and-pop3-servers-mailserver-list.html).
 
@@ -60,3 +64,12 @@ Today, the mail servers are advanced enough and use a standard encryption format
 Another step needed for this to work is to make the mail account less secure. I created another seperate mail account for the purpose of sending mails through matlab, this way I do not have to compromise on my normal mail account and I would highly suggest to do this. As an example I will post the following picture that guides you to make the mail server accessible through less secure apps, in our case Matlab. [Link here](https://support.google.com/accounts/answer/6010255?hl=en)
 
 ![mail unsecure example](https://github.com/saurabhsay/matlab_email_access/blob/master/images/mail_unsecure.jpg)
+
++ **mail server view**
+
+This is an example as how your mail will look if you have been using this as me.
+
+![mail view example](https://github.com/saurabhsay/matlab_email_access/blob/master/images/mail_display.jpg)
+
+
+
