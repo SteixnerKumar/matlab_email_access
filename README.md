@@ -1,9 +1,3 @@
-# Contents
-## [matlab_email_access](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#matlab_email_access-1)
-## [Softwares and tools needed](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#softwares-and-tools-needed-1)
-## [Notes](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#notes-1)
-## [Procedure](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#procedure-1)
-
 # matlab_email_access
 Access matlab (potentially other softwares) through email. Extend their functionality and practicality some some specific cases
 
@@ -15,6 +9,12 @@ I do not claim it to be the best solution but it has definitely saved me a lot o
 
 So please read on and use it at you own convinience.
 ###### [Back to Contents](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#Contents)
+
+# Contents
+## [matlab_email_access](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#matlab_email_access-1)
+## [Softwares and tools needed](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#softwares-and-tools-needed-1)
+## [Notes](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#notes-1)
+## [Procedure](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#procedure-1)
 
 # Softwares and tools needed
 Here are the softwares combinations I used, but this technique can be used to access other softwares as well.
