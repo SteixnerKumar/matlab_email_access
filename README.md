@@ -11,7 +11,7 @@ So please read on and use it at you own convinience.
 ###### [Back to Contents](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#Contents)
 
 # Contents
-## [matlab_email_access](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#matlab_email_access-1)
+## [matlab_email_access](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#matlab_email_access)
 ## [Softwares and tools needed](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#softwares-and-tools-needed-1)
 ## [Notes](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#notes-1)
 ## [Procedure](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#procedure-1)
