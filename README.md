@@ -5,9 +5,9 @@
 ## [Procedure](https://github.com/saurabhsay/matlab_email_access/blob/master/README.md#procedure-1)
 
 # matlab_email_access
-Access matlab (potentially other softwares) through email. Extend their functionality and practicality some some specific cases
+Access matlab (potentially other softwares) through email. Extend their functionality and practicality in some specific cases.
 
-If you wanna check your scripts run from around the world and make some changes to it on the go without the hassel of the vpn.
+If you wanna check your scripts run from around the world and make some changes to it on the go without the hassel of the vpn, just from your email client on your phone then read ahead.
 
 The idea of this script came to me when I was travelling in different time zones and did not always have the convinience to connect to the server at work with a laptop. I thought there has to be a different solution to this specific problem as my work was time-critical since the servers at work are shared with other collegues and you don't wanna annoy everyone by hogging the server for days and in reality using it at specific times. Basically optimizing the time with the server access.
 
