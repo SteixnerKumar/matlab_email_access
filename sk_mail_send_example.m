@@ -27,7 +27,9 @@ skmail.recipient = 'emailaddress';
 % skmail.body = ;
 % skmail.attachment = ;
 % sendmail(recipient, title, body, attachments); 
-if ~exist('skmail.attachment','var')
+try
+    exist(skmail.attachment);
+catch
     skmail.attachment = [];
 end
  
